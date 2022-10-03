@@ -60,3 +60,22 @@ body{
 .bt_half:hover{
     background-color: rgb(141, 155, 149);
 }
+/*
+    Aqui vou definir os botoes para cada empresa
+*/
+.bt1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.escondido{
+    display: block;
+    align-items: center;
+    justify-content: centers;
+    border: 1px solid black;
+    margin: 0px 10px;
+    
+}
+
