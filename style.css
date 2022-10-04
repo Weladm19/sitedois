@@ -13,6 +13,9 @@ body{
     background-color: rgba(89, 182, 189, 0.445);
 }
 
+/*
+    Faço alteraçoes aqui so para logo
+*/
 #b_container{
     display: flex;
     background-color: rgba(0, 0, 0, 0.719);
@@ -24,6 +27,10 @@ body{
     margin-bottom: 10px;
     cursor: pointer;
 }
+
+/*
+    Aqui faço alteração no meio do site 
+*/
 
 .container_b div a{
     color: rgb(5, 4, 4);
@@ -40,12 +47,14 @@ body{
 
 .container_b div{
     padding: 10px;
-    width: 150px;
+    width: 120px;
     margin: auto;
 }
 
+/*Aqui  faço com que os botões fiquem interativo*/
 .bt_half{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100px;
@@ -63,19 +72,17 @@ body{
 /*
     Aqui vou definir os botoes para cada empresa
 */
-.bt1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.escondido{
+
+.escondido a{
     display: block;
     align-items: center;
-    justify-content: centers;
+    justify-content: center;
     border: 1px solid black;
-    margin: 0px 10px;
-    
+    border-radius: 10px;
+    margin: 0px 2px;
+    padding: 1px;
+    visibility: visible;
+    margin-top: 10px;
 }
 

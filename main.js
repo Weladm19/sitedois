@@ -1,4 +1,1 @@
-var bt = window.document.getElementsByClassName("bt1");
-addEventListener('click', function(){
-
-});
+var bt = window.document.getElementsByClassName(".escondido")
