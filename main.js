@@ -1,1 +1,0 @@
-var bt = window.document.getElementsByClassName(".escondido")
